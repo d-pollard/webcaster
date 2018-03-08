@@ -17,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -40,25 +40,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caster.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="caster.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/caster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="148" column="83" lean-forward="false" selection-start-line="148" selection-start-column="83" selection-end-line="148" selection-end-column="83" />
+            <state relative-caret-position="245">
+              <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="e#530#559#0" expanded="false" />
                 <element signature="e#596#626#0" expanded="false" />
                 <element signature="e#663#689#0" expanded="false" />
                 <element signature="e#725#755#0" expanded="false" />
                 <element signature="e#792#812#0" expanded="false" />
-                <element signature="e#859#1050#0" expanded="false" />
-                <element signature="e#1096#1248#0" expanded="false" />
-                <element signature="e#1298#1448#0" expanded="false" />
-                <element signature="e#1502#1667#0" expanded="false" />
-                <element signature="e#1713#1738#0" expanded="false" />
-                <element signature="e#1840#2021#0" expanded="false" />
-                <element signature="e#2059#2274#0" expanded="false" />
-                <element signature="e#2311#2499#0" expanded="false" />
+                <element signature="e#923#1114#0" expanded="false" />
+                <element signature="e#1160#1312#0" expanded="false" />
+                <element signature="e#1362#1512#0" expanded="false" />
+                <element signature="e#1566#1731#0" expanded="false" />
+                <element signature="e#1777#1802#0" expanded="false" />
+                <element signature="e#1904#2085#0" expanded="false" />
+                <element signature="e#2123#2338#0" expanded="false" />
+                <element signature="e#2375#2563#0" expanded="false" />
                 <element signature="n#!!block;n#initPhoner#0;n#!!block;n#caster#0" expanded="false" />
                 <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
               </folding>
@@ -79,7 +79,7 @@
       <file leaf-file-name="VideoManager.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="653">
               <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="39" />
               <folding>
                 <element signature="e#16#880#0" expanded="false" />
@@ -119,8 +119,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/README.md" />
         <option value="$PROJECT_DIR$/src/browser.js" />
-        <option value="$PROJECT_DIR$/src/caster.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/caster.js" />
       </list>
     </option>
   </component>
@@ -337,7 +337,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520460294780</updated>
-      <workItem from="1520460296060" duration="16730000" />
+      <workItem from="1520460296060" duration="17137000" />
     </task>
     <servers />
   </component>
@@ -368,7 +368,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16730000" />
+    <option name="totallyTimeSpent" value="17137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -528,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="39" />
-          <folding>
-            <element signature="e#16#880#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/browser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -546,35 +536,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="39" />
+          <folding>
+            <element signature="e#16#880#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/caster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="148" column="83" lean-forward="false" selection-start-line="148" selection-start-column="83" selection-end-line="148" selection-end-column="83" />
+        <state relative-caret-position="245">
+          <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
           <folding>
             <element signature="e#530#559#0" expanded="false" />
             <element signature="e#596#626#0" expanded="false" />
             <element signature="e#663#689#0" expanded="false" />
             <element signature="e#725#755#0" expanded="false" />
             <element signature="e#792#812#0" expanded="false" />
-            <element signature="e#859#1050#0" expanded="false" />
-            <element signature="e#1096#1248#0" expanded="false" />
-            <element signature="e#1298#1448#0" expanded="false" />
-            <element signature="e#1502#1667#0" expanded="false" />
-            <element signature="e#1713#1738#0" expanded="false" />
-            <element signature="e#1840#2021#0" expanded="false" />
-            <element signature="e#2059#2274#0" expanded="false" />
-            <element signature="e#2311#2499#0" expanded="false" />
+            <element signature="e#923#1114#0" expanded="false" />
+            <element signature="e#1160#1312#0" expanded="false" />
+            <element signature="e#1362#1512#0" expanded="false" />
+            <element signature="e#1566#1731#0" expanded="false" />
+            <element signature="e#1777#1802#0" expanded="false" />
+            <element signature="e#1904#2085#0" expanded="false" />
+            <element signature="e#2123#2338#0" expanded="false" />
+            <element signature="e#2375#2563#0" expanded="false" />
             <element signature="n#!!block;n#initPhoner#0;n#!!block;n#caster#0" expanded="false" />
             <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>

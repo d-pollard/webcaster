@@ -34,6 +34,9 @@ function caster() {
   $$.getStatusCar    = function () {
     return sc;
   };
+  $$.getStatusCodes  = function () {
+    return constants;
+  };
 
   $$.setVideoSource  = function (elementID) {
     try {
