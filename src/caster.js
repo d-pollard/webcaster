@@ -81,6 +81,14 @@ function caster() {
       console.warn("[Caster] - You are missing some configuration settings. Please rectify this.");
     }
   };
+  $$.stopLiveStream  = function () {
+    if (stream) {
+      stream.stop();
+      stream = false;
+    } else {
+      console.warn("[Caster] - You need to begin the livestream before you can stop it, silly goose");
+    }
+  };
 
   /**
    *

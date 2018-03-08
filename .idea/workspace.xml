@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1f3395-3c22-43c9-809d-58398f50aa58" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/caster.js" afterPath="$PROJECT_DIR$/src/caster.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -32,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/node_modules/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <first_editor relative-caret-position="238">
+                <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,8 +43,8 @@
       <file leaf-file-name="caster.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="217">
+              <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
               <folding>
                 <element signature="e#286#364#0" expanded="false" />
                 <element signature="e#530#559#0" expanded="false" />
@@ -60,41 +59,10 @@
                 <element signature="e#1713#1738#0" expanded="false" />
                 <element signature="e#1840#2021#0" expanded="false" />
                 <element signature="e#2059#2274#0" expanded="false" />
-                <element signature="n#!!block;n#initPhoner#0;n#!!block;n#caster#0" expanded="false" />
+                <element signature="e#2311#2499#0" expanded="false" />
                 <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
                 <element signature="n#!!block;n#setSession#0;n#!!block;n#caster#0" expanded="false" />
-                <element signature="n#!!block;n#setStream#0;n#!!block;n#caster#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mocks/setup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testCaster.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testCaster.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -109,12 +77,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
+      <file leaf-file-name="VideoManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="1003">
+              <caret line="87" column="9" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="9" />
+              <folding>
+                <element signature="e#16#880#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,12 +113,12 @@
         <option value="$PROJECT_DIR$/src/browser.js" />
         <option value="$PROJECT_DIR$/tests/mocks/flashphoner-api.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/src/caster.js" />
         <option value="$PROJECT_DIR$/tests/testCaster.js" />
         <option value="$PROJECT_DIR$/tests/mocks/setup.js" />
         <option value="$PROJECT_DIR$/test/testCaster.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/README.md" />
+        <option value="$PROJECT_DIR$/src/caster.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -297,7 +267,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dereks-livecoder-rtc/src/App.vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.9.4" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
   </component>
@@ -366,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520460294780</updated>
-      <workItem from="1520460296060" duration="12433000" />
+      <workItem from="1520460296060" duration="13106000" />
     </task>
     <servers />
   </component>
@@ -397,7 +367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12433000" />
+    <option name="totallyTimeSpent" value="13106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -450,16 +420,6 @@
         <state relative-caret-position="-969">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="87" column="9" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="9" />
-          <folding>
-            <element signature="e#16#880#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -524,56 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/caster.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="e#286#364#0" expanded="false" />
-            <element signature="e#530#559#0" expanded="false" />
-            <element signature="e#596#626#0" expanded="false" />
-            <element signature="e#663#689#0" expanded="false" />
-            <element signature="e#725#755#0" expanded="false" />
-            <element signature="e#792#812#0" expanded="false" />
-            <element signature="e#859#1050#0" expanded="false" />
-            <element signature="e#1096#1248#0" expanded="false" />
-            <element signature="e#1298#1448#0" expanded="false" />
-            <element signature="e#1502#1667#0" expanded="false" />
-            <element signature="e#1713#1738#0" expanded="false" />
-            <element signature="e#1840#2021#0" expanded="false" />
-            <element signature="e#2059#2274#0" expanded="false" />
-            <element signature="n#!!block;n#initPhoner#0;n#!!block;n#caster#0" expanded="false" />
-            <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
-            <element signature="n#!!block;n#setSession#0;n#!!block;n#caster#0" expanded="false" />
-            <element signature="n#!!block;n#setStream#0;n#!!block;n#caster#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mocks/setup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rewiremock/rewiremock.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testCaster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -590,21 +500,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/mocks/setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="false" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rewiremock/rewiremock.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../dereks-livecoder-rtc/src/services/VideoManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="87" column="9" lean-forward="false" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="9" />
+          <folding>
+            <element signature="e#16#880#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/caster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+          <folding>
+            <element signature="e#286#364#0" expanded="false" />
+            <element signature="e#530#559#0" expanded="false" />
+            <element signature="e#596#626#0" expanded="false" />
+            <element signature="e#663#689#0" expanded="false" />
+            <element signature="e#725#755#0" expanded="false" />
+            <element signature="e#792#812#0" expanded="false" />
+            <element signature="e#859#1050#0" expanded="false" />
+            <element signature="e#1096#1248#0" expanded="false" />
+            <element signature="e#1298#1448#0" expanded="false" />
+            <element signature="e#1502#1667#0" expanded="false" />
+            <element signature="e#1713#1738#0" expanded="false" />
+            <element signature="e#1840#2021#0" expanded="false" />
+            <element signature="e#2059#2274#0" expanded="false" />
+            <element signature="e#2311#2499#0" expanded="false" />
+            <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
+            <element signature="n#!!block;n#setSession#0;n#!!block;n#caster#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
