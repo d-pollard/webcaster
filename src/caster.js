@@ -127,11 +127,9 @@ function caster() {
         tempSession = phoner.getSessions()[0];
       } else {
         phoner.createSession({ urlServer: socketSource })
-          .on(sessionStatus.DISCONNECTED, function() { setStatus(sessionStatus.DISCONNECTED) })
-          .on(sessionStatus.FAILED, function() { setStatus(sessionStatus.FAILED) })
-          .on(sessionStatus.ESTABLISHED, function (newSession) {
-            session = newSession; setStream();
-          });
+          .on(sessionStatus.DISCONNECTED, function() { setStatus(sessionStatus.DISCONNECTED); })
+          .on(sessionStatus.FAILED, function() { setStatus(sessionStatus.FAILED); })
+          .on(sessionStatus.ESTABLISHED, function (newSession) { setStatus(sessionStatus.ESTABLISHED); session = newSession; setStream(); });
       }
     } else {
       console.warn('[Caster] - Please set the socket source before attempting this.');
@@ -150,8 +148,8 @@ function caster() {
       }, streamStatus = constants.STREAM_STATUS;
       session.createStream(settings)
         .on(streamStatus.PUBLISHING, function(newStream) { setStatus(streamStatus.PUBLISHING); stream = newStream; })
-        .on(streamStatus.FAILED, function() { setStatus(streamStatus.FAILED) })
-        .on(streamStatus.UNPUBLISHED, function() { setStatus(streamStatus.UNPUBLISHED) })
+        .on(streamStatus.FAILED, function() { setStatus(streamStatus.FAILED); })
+        .on(streamStatus.UNPUBLISHED, function() { setStatus(streamStatus.UNPUBLISHED); })
         .publish();
     } else {
       console.warn('[Caster] - Please set the settings before attempting this.');
