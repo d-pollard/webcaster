@@ -149,11 +149,9 @@ function caster() {
         receiveAudio: false
       }, streamStatus = constants.STREAM_STATUS;
       session.createStream(settings)
-        .on(streamStatus.PUBLISHING, function() { setStatus(streamStatus.PUBLISHING) })
+        .on(streamStatus.PUBLISHING, function(newStream) { setStatus(streamStatus.PUBLISHING); stream = newStream; })
         .on(streamStatus.FAILED, function() { setStatus(streamStatus.FAILED) })
-        .on(streamStatus.UNPUBLISHED, function(newStream) {
-          stream = newStream;
-        })
+        .on(streamStatus.UNPUBLISHED, function() { setStatus(streamStatus.UNPUBLISHED) })
         .publish();
     } else {
       console.warn('[Caster] - Please set the settings before attempting this.');
