@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d1f3395-3c22-43c9-809d-58398f50aa58" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change beforePath="$PROJECT_DIR$/src/caster.js" afterPath="$PROJECT_DIR$/src/caster.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -40,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="caster.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="caster.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/caster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="127" column="82" lean-forward="false" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+            <state relative-caret-position="115">
+              <caret line="145" column="27" lean-forward="true" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
               <folding>
                 <element signature="e#530#559#0" expanded="false" />
                 <element signature="e#596#626#0" expanded="false" />
@@ -119,8 +118,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/README.md" />
         <option value="$PROJECT_DIR$/src/browser.js" />
-        <option value="$PROJECT_DIR$/src/caster.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/caster.js" />
       </list>
     </option>
   </component>
@@ -337,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520460294780</updated>
-      <workItem from="1520460296060" duration="15311000" />
+      <workItem from="1520460296060" duration="15963000" />
     </task>
     <servers />
   </component>
@@ -368,7 +367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15311000" />
+    <option name="totallyTimeSpent" value="15963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -546,10 +545,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/caster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="127" column="82" lean-forward="false" selection-start-line="127" selection-start-column="82" selection-end-line="127" selection-end-column="82" />
+        <state relative-caret-position="115">
+          <caret line="145" column="27" lean-forward="true" selection-start-line="145" selection-start-column="27" selection-end-line="145" selection-end-column="27" />
           <folding>
             <element signature="e#530#559#0" expanded="false" />
             <element signature="e#596#626#0" expanded="false" />
@@ -567,14 +574,6 @@
             <element signature="n#!!block;n#initPhoner#0;n#!!block;n#caster#0" expanded="false" />
             <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>

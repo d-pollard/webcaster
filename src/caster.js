@@ -145,7 +145,7 @@ function caster() {
         receiveVideo: false,
         receiveAudio: false
       }, streamStatus = constants.STREAM_STATUS;
-      stream = phoner.createStream(settings)
+      session.createStream(settings)
         .on(streamStatus.PUBLISHED, function() { setStatus(streamStatus.PUBLISHED) })
         .on(streamStatus.FAILED, function() { setStatus(streamStatus.FAILED) })
         .on(streamStatus.PUBLISHING, function(newStream) {
