@@ -124,8 +124,8 @@ function caster() {
         tempSession = phoner.getSessions()[0];
       } else {
         phoner.createSession({ urlServer: socketSource })
-          .on(sessionStatus.DISCONNECTED, setStatus(sessionStatus.DISCONNECTED))
-          .on(sessionStatus.FAILED, setStatus(sessionStatus.FAILED))
+          .on(sessionStatus.DISCONNECTED, function() { setStatus(sessionStatus.DISCONNECTED) })
+          .on(sessionStatus.FAILED, function() { setStatus(sessionStatus.FAILED) })
           .on(sessionStatus.ESTABLISHED, function (newSession) {
             session = newSession; setStream();
           });
@@ -146,8 +146,8 @@ function caster() {
         receiveAudio: false
       }, streamStatus = constants.STREAM_STATUS;
       stream = phoner.createStream(settings)
-        .on(streamStatus.PUBLISHED, setStatus(streamStatus.PUBLISHED))
-        .on(streamStatus.FAILED, setStatus(streamStatus.FAILED))
+        .on(streamStatus.PUBLISHED, function() { setStatus(streamStatus.PUBLISHED) })
+        .on(streamStatus.FAILED, function() { setStatus(streamStatus.FAILED) })
         .on(streamStatus.PUBLISHING, function(newStream) {
           stream = newStream;
         })
