@@ -146,9 +146,9 @@ function caster() {
         receiveAudio: false
       }, streamStatus = constants.STREAM_STATUS;
       session.createStream(settings)
-        .on(streamStatus.PUBLISHED, function() { setStatus(streamStatus.PUBLISHED) })
+        .on(streamStatus.PUBLISHING, function() { setStatus(streamStatus.PUBLISHING) })
         .on(streamStatus.FAILED, function() { setStatus(streamStatus.FAILED) })
-        .on(streamStatus.PUBLISHING, function(newStream) {
+        .on(streamStatus.UNPUBLISHED, function(newStream) {
           stream = newStream;
         })
         .publish();
