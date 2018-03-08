@@ -5,13 +5,13 @@ function caster() {
   var session, stream, phoner, constants, $$ = this, status = 'ready', videoSource, socketSource, rtmp_url, rtmp_channel, sc;
   var sc_arr = [];
 
-  $$.init();
-
   $$.init = function () {
     phoner = Phoner;
     constants = phoner.constants;
     initPhoner();
   };
+
+  $$.init();
 
   /**
    *
@@ -109,8 +109,12 @@ function caster() {
   }
   
   function setStatus(changeTo) {
-    status = changeTo;
-    ['sc'](changeTo);
+    try {
+      status = changeTo;
+      sc(changeTo);
+    } catch (e) {
+      throw new Error('[Caster] - Cannot record status changes. Please check your statusCar function.');
+    }
   }
 
   function setSession() {

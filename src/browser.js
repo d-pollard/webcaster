@@ -24,6 +24,6 @@ module.exports = {
     return navigator.userAgent.toLowerCase().indexOf("android") > -1;
   },
   isSafariWebRTC() {
-    return navigator.mediaDevices && Browser.isSafari();
+    return navigator.mediaDevices && this.isSafari();
   }
 };

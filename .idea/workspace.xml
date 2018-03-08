@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d1f3395-3c22-43c9-809d-58398f50aa58" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/browser.js" afterPath="$PROJECT_DIR$/src/browser.js" />
       <change beforePath="$PROJECT_DIR$/src/caster.js" afterPath="$PROJECT_DIR$/src/caster.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,10 +44,9 @@
       <file leaf-file-name="caster.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/caster.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+            <state relative-caret-position="264">
+              <caret line="115" column="100" lean-forward="false" selection-start-line="115" selection-start-column="100" selection-end-line="115" selection-end-column="100" />
               <folding>
-                <element signature="e#286#364#0" expanded="false" />
                 <element signature="e#530#559#0" expanded="false" />
                 <element signature="e#596#626#0" expanded="false" />
                 <element signature="e#663#689#0" expanded="false" />
@@ -56,22 +56,20 @@
                 <element signature="e#1096#1248#0" expanded="false" />
                 <element signature="e#1298#1448#0" expanded="false" />
                 <element signature="e#1502#1667#0" expanded="false" />
-                <element signature="e#1713#1738#0" expanded="false" />
                 <element signature="e#1840#2021#0" expanded="false" />
                 <element signature="e#2059#2274#0" expanded="false" />
                 <element signature="e#2311#2499#0" expanded="false" />
-                <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
                 <element signature="n#!!block;n#setSession#0;n#!!block;n#caster#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rewiremock.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/rewiremock/rewiremock.d.ts">
+      <file leaf-file-name="browser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/browser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+            <state relative-caret-position="340">
+              <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -102,6 +100,8 @@
     <findStrings>
       <find>: function</find>
       <find>on</find>
+      <find>elementID</find>
+      <find>statusCar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/browser.js" />
         <option value="$PROJECT_DIR$/tests/mocks/flashphoner-api.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/tests/testCaster.js" />
@@ -118,6 +117,7 @@
         <option value="$PROJECT_DIR$/test/testCaster.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/README.md" />
+        <option value="$PROJECT_DIR$/src/browser.js" />
         <option value="$PROJECT_DIR$/src/caster.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
@@ -336,7 +336,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520460294780</updated>
-      <workItem from="1520460296060" duration="13106000" />
+      <workItem from="1520460296060" duration="15065000" />
     </task>
     <servers />
   </component>
@@ -367,7 +367,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13106000" />
+    <option name="totallyTimeSpent" value="15065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -402,7 +402,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -419,14 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/browser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -516,14 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rewiremock/rewiremock.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -545,12 +529,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rewiremock/rewiremock.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="163" column="11" lean-forward="false" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/caster.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="83" column="35" lean-forward="false" selection-start-line="83" selection-start-column="35" selection-end-line="83" selection-end-column="35" />
+        <state relative-caret-position="264">
+          <caret line="115" column="100" lean-forward="false" selection-start-line="115" selection-start-column="100" selection-end-line="115" selection-end-column="100" />
           <folding>
-            <element signature="e#286#364#0" expanded="false" />
             <element signature="e#530#559#0" expanded="false" />
             <element signature="e#596#626#0" expanded="false" />
             <element signature="e#663#689#0" expanded="false" />
@@ -560,11 +559,9 @@
             <element signature="e#1096#1248#0" expanded="false" />
             <element signature="e#1298#1448#0" expanded="false" />
             <element signature="e#1502#1667#0" expanded="false" />
-            <element signature="e#1713#1738#0" expanded="false" />
             <element signature="e#1840#2021#0" expanded="false" />
             <element signature="e#2059#2274#0" expanded="false" />
             <element signature="e#2311#2499#0" expanded="false" />
-            <element signature="n#!!block;n#setStatus#0;n#!!block;n#caster#0" expanded="false" />
             <element signature="n#!!block;n#setSession#0;n#!!block;n#caster#0" expanded="false" />
           </folding>
         </state>
